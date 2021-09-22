@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+
+  cout<<"enter the number"<<"\n";
+  int n;
+  cin>>n;
+  int rem,sum=0;
+  while(n>0){
+	  rem=n%10;
+	  sum=sum*10+rem;
+	  n/=10;
+  }
+
+ cout<<"the reverse number is "<<sum<<"\n";
+    return 0;
+}
